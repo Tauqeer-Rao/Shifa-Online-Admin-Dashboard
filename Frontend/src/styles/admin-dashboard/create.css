@@ -1,0 +1,40 @@
+.smDiv{
+    display: flex;
+}
+
+.mainContainer{
+    margin-top: 80px;
+    text-align: center;
+    color: var(--black);
+    margin-left: 240px;
+    width: 1112px;
+    height: 600px;
+    overflow: scroll;
+}
+.login {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 1%;
+    height: min-content;
+    padding: 10px;
+    border-radius: 20px;
+    background: #aba7a7;
+}
+
+.login h1 {
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+.login form {
+    font-size: 15px;
+}
+
+.login form .form-login {
+    margin-bottom: 1px;
+}
+
+.login form input[type="submit"] {
+    font-size: 15px;
+    margin-bottom: 10px;
+}

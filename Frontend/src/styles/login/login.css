@@ -1,0 +1,36 @@
+.radio{
+    justify-content: space-between;
+}
+.main-wrapper {
+    width: 400px;
+    height: min-content;
+    padding: 10px;
+    border-radius: 12px;
+    background: #ffffff;
+    margin-top: 10%;
+    margin-left: 35%;
+    
+}
+.radioo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-wrapper h1 {
+    font-size: 36px;
+    margin-bottom: 26px;
+    
+}
+.main-wrapper form {
+    font-size: 20px;
+}
+.main-wrapper form .form-main-wrapper {
+    margin-bottom: 12px;
+    
+}
+
+.main-wrapper form input[type="submit"] {
+    font-size: 20px;
+    margin-bottom: 15px;
+   
+
+}

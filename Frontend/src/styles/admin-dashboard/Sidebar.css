@@ -1,0 +1,54 @@
+:root {
+    --blue: #2c60c2;
+    --black: #333;
+    --white: #ffffff;
+  }
+
+ .sidebar {
+    margin-top: 80px;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(192, 190, 190);
+    font-weight: 600;
+}
+
+.sideLinks{
+    padding-top: 20px;   
+    height: 30%;
+}
+  
+.sideLinks > p{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-top: 30%;
+}
+
+  .sideLinks > p >a:hover{
+    color: var(--black);
+    background-color: var(--blue);
+  }
+  
+  .linkS{
+    font-size: 20px;
+    width: 100px;
+    color: var(--black);
+    text-decoration: none;
+  }
+  
+  .sideLinks >  p:hover{
+    color: var(--white);
+    background-color: var(--blue);
+  }
+  
+@media only screen and (max-width: 600px) {
+.sidebar {
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+
+}

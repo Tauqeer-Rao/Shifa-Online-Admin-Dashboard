@@ -1,0 +1,21 @@
+.body1{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.delete{
+    background-color: rgb(176, 167, 167);
+    padding: 2%;
+    width: 50%;
+    height: 40%;
+    margin-top:10% ;
+    margin-left: 20%;
+}
+.head2{
+    padding: 10%;
+}
+.del{
+    width: 15%;
+    height: 10%;
+}

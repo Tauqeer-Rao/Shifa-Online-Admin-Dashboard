@@ -1,0 +1,18 @@
+:root {
+    --blue: #2c60c2;
+    --black: #333;
+    --white: #ffffff;
+}
+.smDiv{
+    display: flex;
+}
+
+.mainContainer{
+    margin-top: 80px;
+    text-align: center;
+    color: var(--black);
+    margin-left: 250px;
+    width: 1112px;
+    height: 600px;
+    overflow: scroll;
+}

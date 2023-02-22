@@ -1,0 +1,18 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-around;
+  }
+  .Appp {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-around;
+    margin-bottom: 3%;
+  }
+  
+  .chart-container {
+    margin-bottom: 3%;
+    width: 40%;
+  }
